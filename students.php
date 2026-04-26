@@ -22,7 +22,7 @@
     );
     function calculateStatus($grade){
         $status='';
-        if($grade<=100 ||$grade>=0){
+        if($grade<=100 and $grade>=0){
             if($grade>=90){
                 $status="ممتاز";}
             else if($grade>=80){
